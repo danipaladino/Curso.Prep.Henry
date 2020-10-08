@@ -1,0 +1,8 @@
+Explicaciones del homework:
+
+for: se lo conoce como bucle, y eso significa que se va a repetir una o muchas veces. Y en cada vuelta que da hará algo. Cuando llega al final de una vuelta se le pide, mediante un contador, que siga dando otra vuelta y así sucesivamente. Pero todo esto está controlado por algo llamado "condición". Esta condición revisará en cada vuelta de ese bucle si tiene que detenerse o seguir trabajando.
+
+Operadores lógicos:
+&& este operador llamado "and" permite comparar si de dos cosas (palabras, números, etc.) ambas son verdaderas. De ser así nos devuelve el valor Verdadero. Sino devuelve el valor Falso.
+|| este operador llamado "or" permite comparar si de dos cosas (palabras, números, etc.) al menos una es verdadera. De ser así nos devuelve el valor Verdadero. Sino devuelve el valor Falso.
+!  este operador llamado "not" lo que hace es negar cualquier cosa (palabras, números, etc.), por ejemplo: transformando algo positivo en negativo; o algo verdadero en falso.
