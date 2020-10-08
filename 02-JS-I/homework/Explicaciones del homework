@@ -1,0 +1,11 @@
+Explicaciones del homework
+
+Variable: es un elemento que se utiliza para guardar el valor de algo, por ejemplo un número o una palabra o una letra. Y su característica es que ese valor puede cambiar en la vida de un programa.
+
+String: es un tipo de dato que representa texto, por ejemplo una letra o una palabra. Por ello, una Variable puede ser de tipo String.
+
+Funciones: son objetos que reciben datos llamados Argumentos, los procesan y devuelven una valor o Return. Las funciones tienen un nombre y se las invoca en cualquier parte del programa para que realicen alguna tarea.
+
+Declaraciones: if. Es un elemento que sirve para determinar si algo es verdadero o falso. Por ejemplo, podemos verificar si un número es mayor, menor o igual que otro número. Esto nos servirá para tomar alguna decisión. Podemos utilizar estas declaraciones, por ejemplo, para habilitar a una persona a realizar cierto trámite si es mayor de 18 años.
+
+Valores booleanos true o false: es un tipo de dato que solamente puede tomar un valor; por ejemplo: 0 o 1, abierto o cerrado, verdadero o falso. Se puede usar para determinar si una persona es mayor de 18 años.
