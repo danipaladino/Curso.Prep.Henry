@@ -1,0 +1,6 @@
+Explicación del homework
+
+Los arrays, arreglos o matrices son similares a las variables con la diferencia de que las variables guardan un solo valor, mientras que las matrices pueden guardar muchos valores o elementos. Por ejemplo:
+variable fruta (manzana)
+matriz frutas (manzana, pera, durazno, mandarina, sandía)
+Las dos, tanto las variables como las matrices permiten usar como datos: números, palabras o letras.
