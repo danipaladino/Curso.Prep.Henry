@@ -1,0 +1,12 @@
+Explicación del homework:
+
+Objetos: los Objetos sirven para representar las características de algo. Por ejemplo si quiero describir todas las características tecnicas de un automóvil puedo usar un Objeto. Se componen de una clave y su valor correspondiente. Por ejemplo marca -> Renault, color -> rojo, transmisión -> manual, combustible -> nafta.
+
+Propiedades: las Propiedades serían justamente las claves que acceden a las características del Objeto. Para el ejemplo anterior serían: marca, color, transmisión y combustible.
+
+Métodos: es el nombre que en programación se les da a las Funciones. Recordemos que estas hacen algo cuando las invocamos y devuelven algo.
+
+Bucle for..in: Este bucle especial nos sirve para recorrer todos los elementos de un Objeto.
+
+Notación de puntos vs notación de corchetes: ambas sirven para acceder a los elementos de un Objeto. Lo hacen de forma distinta. La notación de puntos es más sencilla, simplemente escribiendo el nombre del objeto, un punto y el nombre de la clave. Por ej: coches.marca. Sería similar a invocar la propiedad de una matriz o array.
+En la notacion por corchetes la forma de invocar al elemento anterior sería: coches['marca'] de forma similar a como accedemos a un elemento de una matriz o array.
