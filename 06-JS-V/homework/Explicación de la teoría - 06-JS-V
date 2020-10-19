@@ -1,0 +1,5 @@
+Explicación de la teoría - 06-JS-V
+
+prototype: es una propiedad que nos permite ahorrar memoria de la computadora evitando la repetición de código innecesario y a su vez permite compartir los métodos (funciones) con los distintos objetos que forman parte de una Clase. Las clases tienen una propiedad prototype para que la usemos al crear los métodos.
+
+_Constructor_(de Clases): el constructor de clases permite crear y compartir propiedades de una clase de instancia superior a otra de instancia inferior. Se lo conoce como herencia porque se asemeja a pasar las propiedades de un padre a un hijo. Por ejemplo, si compartiéramos propiedades de la clase 'Medios de transporte' a las clases 'Bicicleta', 'Auto', 'Camion'. A su vez estas últimas puedes tener sus propiedades diferentes que también se las pueden pasar a los objetos que se relacionen con cada uno de ellos. La clase Auto tendrá sus propiedades y las compartirá con los Objetos que la forman. Y así con el resto de las clases.
