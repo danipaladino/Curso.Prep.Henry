@@ -1,0 +1,33 @@
+function Persona(nombre,apellido,ciudad) {
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.ciudad = ciudad;
+};
+
+Persona.prototype.saludar = function() {
+    console.log('Soy '+ this.nombre + ' de '+ this.ciudad);
+};
+
+Persona.prototype.invertida = function() {
+	palabra_invertida = '';
+	for (var i = this.nombre.length - 1 ; i>=0 ; i--){
+		palabra_invertida = palabra_invertida + this.nombre.charAt(i);
+	}
+	console.log(palabra_invertida);
+};
+
+var Emi = new Persona('Emi', 'Chequer', 'Buenos Aires');
+
+function Alumno(nombre,apellido,ciudad,curso) {
+    // podría copiar las mismas propiedades de Persona acá adentro
+    this.nombre = nombre;
+    this.apellido = apellido;
+    this.ciudad = ciudad;
+    this.curso = curso
+};
+
+Alumno.prototype = Object.create(Persona.prototype);
+Alumno.prototype.constructor = Alumno;
+
+var Franco = new Alumno('Franco','Etcheverri','Montevideo','Bootcamp');
+var Toni = new Alumno('Toni', 'Tralice', 'Tucuman', 'Web Full Stack');
