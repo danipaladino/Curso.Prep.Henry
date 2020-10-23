@@ -1,0 +1,3 @@
+Explicación de la teoría:
+
+Una función callback es la capacidad que tenemos en JavaScript de pasar una función como argumento de otra función. De esta manera las podemos llamar en cualquier momento del programa y nos devuelven algo, puede ser un resultado, un string, un array.
